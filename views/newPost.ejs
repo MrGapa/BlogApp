@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+<div class="container">
+	<div id="mainTitle">
+		<h1 class="display-1">New Post</h1>
+	</div>
+	<div id="formClass">
+		<form action="/" method="POST">
+			<div class="form-group">
+				<input class="form-control" type="text" placeholder="Post Title" name="blog[title]">
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" placeholder="Image url" name="blog[image]">
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" name="blog[content]"></textarea>
+			</div>
+			<button>
+				Sumbit
+			</button>
+		</form>
+	</div>
+</div>
+
+
+
+<%- include("partials/footer") %>

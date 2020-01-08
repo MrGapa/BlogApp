@@ -1,0 +1,23 @@
+nav{
+	background-color: #00ffff;
+}
+#mainTitle{
+	text-align: center;
+}
+.card{
+	margin: 5rem 2rem;
+	width: 20rem;
+	/* float: left;
+} */
+.footer{
+	text-align: center;
+}
+
+
+/* HEX
+#00ffff
+#0080ff
+#0000ff
+#8000ff
+#ff00ff
+#ff0080 */

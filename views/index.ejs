@@ -1,0 +1,19 @@
+<%- include("partials/header") %>
+<div class="container">
+	<div id="mainTitle">
+		<h1 class="display-1">Blog App</h1>
+	</div>
+	<div id="mainBody">
+		<% posts.forEach(function(post){ %>
+			<div class="card">
+				<img src="<%= post.image %>" class="card-img-top">
+				<div class="card-body">
+					<h3><%= post.title %></h3>
+					<p class="card-text"><%= post.content.substring(0, 100) %>....</p>
+					<a class="btn btn-primary" href="/post/<%= post._id %>">Leer Más</a>
+				</div>
+			</div>
+		<% }); %>
+	</div>
+</div>
+<%- include("partials/footer")%>
